@@ -15,6 +15,9 @@ document.querySelector('#app').innerHTML = `
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
+    <div class="card">
+      <button id="counter-5" type="button"></button>
+    </div>
     <p class="read-the-docs">
       Click on the Vite logo to learn more
     </p>
@@ -22,3 +25,4 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
+setupCounter(document.querySelector('#counter-5'), 5)
